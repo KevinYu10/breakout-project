@@ -28,7 +28,6 @@ final int INTRO    = 1;
 final int GAME     = 2;
 final int PAUSE    = 3;
 final int GAMEOVER = 4;
-//final int OPTION   = 5;
 
 //colour
 color red      = #FF1414;
@@ -74,7 +73,6 @@ void setup() {
   NumberOfFrames = 22;
   gif = new PImage[NumberOfFrames];
 
-  //======================================================================
   int f = 0;
   while (f < NumberOfFrames) {
     gif[f] = loadImage("frame_"+f+"_delay-0.03s.gif");
