@@ -11,10 +11,6 @@ void keyPressed() {
 void keyReleased() {
   if (keyCode == LEFT)   leftkey = false;
   if (keyCode == RIGHT) rightkey = false;
-  //if (key == 'q' || key == 'Q') {
-  //  mballx = mballx + mballvx;
-  //  mbally = mbally + mballvy;
-  //}
 }
 
 void mouseReleased() {
