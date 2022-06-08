@@ -131,7 +131,7 @@ void setup() {
   //music
   minim = new Minim(this);
   coin = minim.loadFile("score.wav");
-  theme = minim.loadFile("theme.mp3");
+  theme = minim.loadFile("theme2.mp3");
 }
 
 
