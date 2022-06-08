@@ -7,9 +7,6 @@ void intro() {
   image(gif[F], 0, 0, width, height);
   F++;
   if (F == NumberOfFrames) F = 0; 
- 
- //font
-  //textFont(font1);
 
   //title
   textSize(80);
